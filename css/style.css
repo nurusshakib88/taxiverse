@@ -1,0 +1,411 @@
+/*common start*/
+body {   
+   font-size: 16px;
+   font-family: Roboto-Regular;
+   color: black;
+}
+/*common end*/
+
+@font-face {
+   font-family: Roboto-Regular;
+   src: url(../fonts/Roboto-Regular.ttf);
+}
+@font-face {
+   font-family: Roboto-Medium;
+   src: url(../fonts/Roboto-Medium.ttf);
+}
+
+@font-face {
+   font-family: Roboto-Bold;
+   src: url(../fonts/Roboto-Bold.ttf);
+}
+@font-face {
+   font-family: Poppins-Medium;
+   src: url(../fonts/Poppins-Medium.ttf);
+}
+@font-face {
+   font-family: Poppins-SemiBold;
+   src: url(../fonts/Poppins-SemiBold.ttf);
+}
+@font-face {
+   font-family: Poppins-Bold;
+   src: url(../fonts/Poppins-Bold.ttf);
+}
+
+@font-face {
+   font-family: themify;
+   src: url(../fonts/themify.ttf);
+}
+
+/*header start*/
+header {
+   padding-top: 15px;
+   padding-bottom: 15px;
+   background-color: #000000c9;
+   backdrop-filter: blur(5px);
+}
+
+/*menu start*/
+.t_nav:focus {
+   box-shadow: none;
+}
+
+.menu ul li a {
+   font-size: 16px;
+   font-family: Roboto-Bold;
+   text-transform: uppercase;
+   margin-right: 25px;
+   transition: .3s;
+}
+
+.menu ul li:last-child a {
+   margin-right: 0;
+}
+
+.c_nav .navbar-nav .nav-link:hover {
+  color: yellow;
+}
+.c_nav .navbar-nav .nav-link {
+    color: #fff;
+}
+.c_nav .navbar-nav .show > .nav-link,
+.c_nav .navbar-nav .nav-link.active {
+  color: yellow;
+ }
+
+.text-yellow {
+   color: yellow;
+}
+.menu ul li a:after { 
+  content: "";
+  display: block;
+  height: 4px;
+  left: 50%;
+  background: yellow;
+  transition: width 0.3s ease 0s, left 0.3s ease 0s;
+  width: 0;
+}
+.nav-link.active:after, .menu ul li a:hover:after { 
+  width: 100%; 
+  left: 0; 
+}
+
+.hotline {
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+   font-family: Roboto-Bold;
+   background-color: yellow;
+   border-radius: 20px;
+   padding: 8px 20px;
+   transition: .3s;
+}
+.hotline:hover {
+   color: black;
+   background-color: white;
+}
+/*menu end*/
+
+/*banner start*/
+
+.c_gap {
+   width: 100%;
+   height: 100px;
+   display: block;
+}
+section {
+   position: relative;
+   display: block;
+   padding-bottom: 50px;
+}
+.banner {
+   background-image: url(../images/banner.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding-top: 150px;
+   padding-bottom: 50px;
+}
+
+.banner_text span {
+   font-size: 20px;
+   font-family: Roboto-Bold;
+}
+
+.banner_text h1 {
+   color: white;
+   font-size: 60px;
+   font-family: Poppins-Bold;
+}
+
+.book {
+   border-radius: 10px;
+   backdrop-filter: blur(8px);
+   box-shadow: 2px 5px 10px #00000054;
+}
+
+.book h2 {
+    font-family: Poppins-Bold;
+    border-radius: 10px 10px 0 0;
+    background-color: #000000c9;
+}
+
+.b_form {
+   color: white;
+   font-family: Roboto-Bold;
+}
+
+.form-select, .form-control {
+   box-shadow: 1px 1px 8px #00000054;
+}
+
+.form-select:focus, .form-control:focus, .book_btn:focus, .c_btn:focus {
+   box-shadow: none;
+   outline: none;
+}
+
+.book_btn {
+   margin-top: 10px;   
+   width: 100%;
+   color: black;
+   font-family: Roboto-Bold;
+   background-color: yellow;
+   transition: .3s;
+}
+
+.book_btn:hover {   
+   color: white;
+   background-color: black;
+}
+
+/*banner end*/
+
+/*about start*/
+.c_heading {
+   font-size: 45px;
+   font-family: Roboto-Bold;
+}
+
+.c_title {
+   margin: 0;
+   font-size: 25px;
+   font-family: Roboto-Bold;
+}
+/*about end*/
+
+/*service start*/
+.s_service img {
+   width: 20%;
+}
+
+.s_service {
+   padding: 15px 10px;
+   transition: .3s;
+   cursor: pointer;
+}
+.s_service:hover {
+   box-shadow: 1px 2px 10px grey;
+}
+.app_text h2 {
+   font-size: 35px;
+   font-family: Poppins-Bold;
+}
+
+.u_app {
+   font-size: 20px;
+
+}
+.u_app span {
+   font-family: Roboto-Bold;
+   text-transform: capitalize;
+}
+.get_it {
+   padding-top: 50px;
+}
+
+.g_btn {
+   width: 100%;
+   background-color: black;
+   color: white;
+   border-radius: 10px;
+   transition: .3s;
+}
+.g_btn:focus {
+   box-shadow: none;
+}
+.g_btn i {
+   font-size: 25px;
+}
+.g_btn p {
+   margin: 0;
+   font-size: 12px;
+   text-transform: uppercase;
+}
+.g_btn h6 {
+   font-size: 15px;
+   text-transform: uppercase;
+   font-family: Roboto-Bold;
+}
+.g_btn:hover {
+   color: black;   
+   background-color: yellow;
+}
+/*service end*/
+
+/*pricing start*/
+.s_pricing {
+   margin-top: 20px;
+   margin-bottom: 20px;
+   border: 2px solid #8e8e8e;
+   padding: 30px;
+   transition: .3s;
+   cursor: pointer;
+}
+
+.t_text {
+   margin-top: -44px;
+}
+
+.t_text h1 {
+   margin: 0;
+   display: inline-block;
+   font-size: 30px;
+   font-family: Poppins-Bold;
+   color: black;
+   text-transform: uppercase;
+   background-color: white;
+   padding: 3px;
+}
+
+.s_pricing h2 {
+   font-size: 25px;
+   font-family: Roboto-Bold;
+   padding: 20px 0;
+}
+
+.s_pricing p {
+   padding-bottom: 8px;
+}
+
+.s_pricing:hover {
+   border: 2px solid black;
+}
+
+.s_pricing:hover .book_btn {
+   color: white;
+   background-color: black;
+}
+
+/*pricing end*/
+
+
+.customer {
+   background-image: url(../images/banner2.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding: 50px 0;
+}
+.s_item img {
+   margin: 0 auto;
+   width: 15%;
+}
+.p_btn {
+    left: -10px;
+}
+.n_btn {
+    right: -10px;
+}
+.carousel-item {
+   color: white;
+   background-color: #00000052;
+   backdrop-filter: blur(8px);
+   padding: 30px 80px;
+}
+
+/*customer*/
+
+/*blog start*/
+.b_single a {
+   position: relative;
+   display: block;
+   overflow: hidden;
+}
+.b_single a:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  background-color: yellow; 
+  height: 100%;
+  width: 100%;
+  transition: .3s ease;
+  opacity: 0;
+}
+
+.b_single:hover a::before {
+  top: 0;
+  opacity: .3;
+}
+
+/*blog end*/
+
+/*contact start*/
+.contact_info span, .contact_info a {
+   margin-bottom: 10px;
+   display: inline-block;
+   text-decoration: none;
+   color: black;
+   transition: .3s;
+}
+
+.contact_info i {
+   margin-right: 10px;
+   font-size: 25px;
+   font-weight: 600;
+}
+
+
+/*footer start*/
+footer {
+   background-image: url(../images/footer_bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+   padding-top: 100px;
+}
+
+.f_top {
+   padding-bottom: 100px;
+   color: white;
+   border-bottom: 2px solid white;
+}
+.f_single a, .f_single span {
+   color: white;
+   display: inline-block;
+   text-decoration: none;
+   padding-bottom: 5px;
+}
+.f_single a:hover {
+   color: #fcdb00;
+}
+
+.f_bottom {
+   padding: 20px 0;
+}
+
+.f_bottom p span a {
+   text-decoration: none;
+   color: white;
+   font-family: Roboto-Medium;
+   padding: 0 10px;
+}
+.f_bottom p span a:hover {
+   color: yellow;
+}
+
+
+/*footer end*/

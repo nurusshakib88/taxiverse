@@ -1,0 +1,297 @@
+/*Extra small devices (portrait phones, less than 576px)*/
+@media (max-width: 575.98px) {
+
+/*menu start*/
+.menu ul {
+	padding-top: 20px;
+}
+.menu ul li a {
+	margin-right: 0;
+}
+.menu ul li a:after { 
+  content: none;
+}
+.nav-link.active:after, .menu ul li a:hover:after { 
+  visibility: hidden;
+}
+.menu ul li {
+	text-align: right;
+}
+/*menu end*/
+/*banner start*/
+.c_gap {
+	height: 90px;
+}
+section {
+	padding-bottom: 10px;
+}
+.banner {
+	padding-top: 120px;
+}
+.banner_text{
+	text-align: center;
+}
+.banner_text span {
+	font-size: 16px;
+}
+.banner_text h1 {
+    font-size: 35px;
+}
+.book {
+	margin-top: 18px;
+}
+/*banner end*/
+/*about start*/
+.c_col {
+	text-align: center;
+}
+.s_about img {
+	width: 30%;
+	margin: 0 auto;
+	text-align: center;
+}
+.s_text {
+	padding-top: 10px;
+	text-align: center;
+}
+.about_text {
+	padding-bottom: 10px;
+}
+.c_heading {
+  font-size: 30px;
+}
+/*about end*/
+/*service start*/
+.s_service {
+   padding: 15px 10px;
+}
+.app_text h2 {
+	font-size: 28px;
+  padding-top: 20px;
+}
+.get_it {
+	padding-top: 20px;
+}
+/*service end*/
+
+/*customer*/
+.s_item img {
+   width: 30%;
+}
+.p_btn, .n_btn {
+    visibility: hidden;
+}
+.carousel-item {
+   padding: 10px;
+}
+/*customer*/
+/*blog start*/
+.b_single {
+	padding-top: 30px;
+}
+/*blog end*/
+/*footer start*/
+footer {
+	padding-top: 50px;
+}
+.f_top {
+	text-align: center;
+	padding-bottom: 30px;
+}
+.f_single {
+	text-align: center;
+	padding-bottom: 20px;
+}
+/*fotter end*/
+
+}
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+/*menu start*/
+.menu ul {
+	padding-top: 20px;
+}
+.menu ul li a {
+	margin-right: 0;
+}
+.menu ul li a:after { 
+  content: none;
+}
+.nav-link.active:after, .menu ul li a:hover:after { 
+  visibility: hidden;
+}
+.menu ul li {
+	text-align: right;
+}
+/*menu end*/
+/*banner start*/
+.c_gap {
+	height: 90px;
+}
+section {
+	padding-bottom: 15px;
+}
+.banner {
+	padding-top: 120px;
+}
+.banner_text h1 {
+    font-size: 37px;
+}
+.book {
+	margin-top: 30px;
+}
+/*banner end*/
+/*about start*/
+.about_text {
+	padding-bottom: 10px;
+}
+.c_heading {
+  font-size: 35px;
+}
+/*about end*/
+/*service start*/
+.s_service {
+   padding: 15px 0;
+}
+.app_img img {
+	width: 70%;
+}
+.app_text h2 {
+  padding-top: 20px;
+}
+.get_it {
+	padding-top: 20px;
+}
+/*service end*/
+
+/*pricing start*/
+.s_pricing {
+	margin-left: 30px;
+	margin-right: 30px;
+}
+/*pricing end*/
+
+/*blog start*/
+.b_single {
+	padding-top: 30px;
+}
+/*blog end*/
+
+/*footer start*/
+footer {
+	padding-top: 70px;
+}
+.f_top {
+	padding-bottom: 50px;
+}
+.f_single {
+	text-align: center;
+	padding-bottom: 20px;
+}
+/*fotter end*/
+
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) and (max-width: 991.98px) {
+/*menu start*/
+.menu ul {
+	padding-top: 20px;
+}
+.menu ul li a {
+	margin-right: 0;
+}
+.menu ul li a:after { 
+  content: none;
+}
+.nav-link.active:after, .menu ul li a:hover:after { 
+  visibility: hidden;
+}
+.menu ul li {
+	text-align: right;
+}
+/*menu end*/
+
+/*banner start*/
+.c_gap {
+	height: 90px;
+}
+section {
+	padding-bottom: 20px;
+}
+.banner {
+	padding-top: 130px;
+}
+.banner_text h1 {
+    font-size: 35px;
+}
+/*banner end*/
+/*about start*/
+.about_text {
+	padding-bottom: 15px;
+}
+.c_heading {
+  font-size: 35px;
+}
+/*about end*/
+/*service start*/
+.s_service img {
+   width: 30%;
+}
+.s_service {
+   padding: 15px 0;
+}
+.app_text h2 {
+    font-size: 28px;
+}
+.u_app {
+	font-size: 16px;
+}
+.get_it {
+	padding-top: 10px;
+}
+/*service end*/
+/*footer start*/
+footer {
+	padding-top: 80px;
+}
+.f_top {
+	padding-bottom: 50px;
+}
+/*footer end*/
+
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+/*banner start*/
+.c_gap {
+	height: 90px;
+}
+section {
+	padding-bottom: 30px;
+}
+.banner_text h1 {
+    font-size: 50px;
+}
+/*banner end*/
+/*service start*/
+.get_it {
+	padding-top: 40px;
+}
+/*service end*/
+
+}
+
+/*X-Large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) and (max-width: 1399.98px) {
+
+}
+
+/*XX-Large devices (larger desktops, 1400px and up)*/
+@media (min-width: 1400px) {
+
+}
